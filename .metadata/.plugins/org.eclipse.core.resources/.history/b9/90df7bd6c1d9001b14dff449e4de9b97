@@ -1,0 +1,11 @@
+import java.io.IOException;
+
+public class Sender {
+	
+	public static void main(String[] args) throws IOException {
+		
+		SendMail objSender = new SendMail();
+		objSender.send();
+	}
+
+}
